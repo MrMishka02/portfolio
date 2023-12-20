@@ -13,6 +13,7 @@ const Navbar = () => {
     <div className="navbar">
       <Sidebar />
       <div className="wrapper">
+        <span>MG Portfolio</span>
         <div className="social">
           <a href="https://github.com/MrMishka02" target="_blank">
             <img src="/github.png" alt="" />
