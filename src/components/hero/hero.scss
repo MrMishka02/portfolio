@@ -33,6 +33,11 @@
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 300;
         }
       }
 
@@ -48,5 +53,7 @@
     position: absolute;
     top: 0;
     right: 10%;
+    border-radius: 100px;
+    overflow: hidden;
   }
 }
