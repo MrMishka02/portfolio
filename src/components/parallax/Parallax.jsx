@@ -21,23 +21,15 @@ const Parallax = () => {
       <motion.h2 style={{ y: ytext }}>
         For my latest works scroll down
       </motion.h2>
-      <motion.div className="stars" style={{ x: yBg }}></motion.div>
-      <motion.div className="projectImages" style={{ y: yBg }}>
-        <img
-          src="tablet.png"
-          alt="Tablet image"
-          className="tablet"
-        />
+      <motion.div className="stars"></motion.div>
+      <motion.div className="projectImages">
+        <img src="tablet.png" alt="Tablet image" className="tablet" />
         <img
           src="laptopMobile.png"
           alt="Laptop & Mobile image"
           className="laptopMobile"
         />
-        <img
-          src="laptop.png"
-          alt="Laptop image"
-          className="laptop"
-        />
+        <img src="laptop.png" alt="Laptop image" className="laptop" />
       </motion.div>
     </div>
   );

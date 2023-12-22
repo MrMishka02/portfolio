@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Redberry PCfy (MERN Stack)",
+    title: `Redberry PCfy (MERN Stack)`,
     img: "pcfy.jpg",
     description:
       "Responsive multipage platform in which he describes which employee has been given which laptop. We should also be able to describe the details of the laptop as well. Built with ReactJS, Tailwind CSS, also was used React Redux and Form Validation.",
