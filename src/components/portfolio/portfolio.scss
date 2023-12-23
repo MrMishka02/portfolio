@@ -38,6 +38,8 @@
     .imageContainer {
       flex: 1;
       height: 50%;
+      border-radius: 10px;
+      overflow: hidden;
 
       img {
         width: 100%;

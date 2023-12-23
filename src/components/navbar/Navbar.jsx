@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { saveAs } from "file-saver";
@@ -9,6 +10,9 @@ const Navbar = () => {
       "Mikheil Gogia - CV.pdf"
     );
   };
+
+  const [showDownloadCv, setShowDownloadCv] = useState(false);
+
   return (
     <div className="navbar">
       <Sidebar />
@@ -24,8 +28,20 @@ const Navbar = () => {
           >
             <img src="/linkedin.png" alt="" />
           </a>
-          <a onClick={saveFile}>
-            <img src="/download.png" alt="" />
+          <a
+            className="download"
+            onClick={saveFile}
+            onMouseLeave={() => setShowDownloadCv((prev) => !prev)}
+          >
+            {showDownloadCv ? (
+              "Download CV"
+            ) : (
+              <img
+                src="/download.png"
+                alt=""
+                onMouseEnter={() => setShowDownloadCv((prev) => !prev)}
+              />
+            )}
           </a>
         </div>
       </div>
