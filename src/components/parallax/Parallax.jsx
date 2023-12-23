@@ -26,19 +26,21 @@ const Parallax = () => {
 
   return (
     <div className="parallax" ref={ref}>
-      <motion.h1 style={{ y: ytext }}>
-        Create a beautiful, functional and responsive websites
-      </motion.h1>
-      <motion.h2 style={{ y: ytext }}>
-        For my latest works scroll down
-      </motion.h2>
-      <motion.img
-        src="./scroll.png"
-        alt=""
-        className="scroll"
-        variants={variants}
-        animate="scrollButton"
-      />
+      <div className="captions">
+        <motion.h1 style={{ y: ytext }}>
+          Create a beautiful, functional and responsive websites
+        </motion.h1>
+        <motion.h2 style={{ y: ytext }}>
+          For my latest works scroll down
+        </motion.h2>
+        <motion.img
+          src="./scroll.png"
+          alt=""
+          className="scroll"
+          variants={variants}
+          animate="scrollButton"
+        />
+      </div>
       <motion.div className="stars"></motion.div>
       <motion.div className="projectImages">
         <img src="tablet.png" alt="Tablet image" className="tablet" />
