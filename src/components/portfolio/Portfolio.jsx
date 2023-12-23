@@ -5,6 +5,14 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    title: `Portfolio`,
+    img: "portfolio.png",
+    description:
+      "Responsive multipage Personal Portfolio. Built with ReactJS + Vite and SASS. Also was used Framer-Motion fro animations and EmailJS service.",
+    link: "https://pcfy-redberry.vercel.app/",
+  },
+  {
+    id: 2,
     title: `Redberry PCfy (MERN Stack)`,
     img: "pcfy.jpg",
     description:
@@ -12,7 +20,7 @@ const items = [
     link: "https://pcfy-redberry.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Book Shop",
     img: "bookshop.jpg",
     description:
@@ -21,7 +29,7 @@ const items = [
     link: "https://mrmishka02.github.io/book-shop/pages/catalog.html",
   },
   {
-    id: 3,
+    id: 4,
     title: "Online Zoo",
     img: "onlinezoo.jpg",
     description:
