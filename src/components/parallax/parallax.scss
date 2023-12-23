@@ -20,6 +20,11 @@
     text-align: center;
   }
 
+  .scroll {
+    width: 40px;
+    margin: 20px;
+  }
+
   .stars {
     background-image: url("/stars.png");
     background-size: cover;
@@ -28,6 +33,7 @@
     height: 100%;
     position: absolute;
   }
+
   .projectImages {
     position: absolute;
     top: 45%;

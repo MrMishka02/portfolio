@@ -9,20 +9,25 @@ const items = [
     img: "pcfy.jpg",
     description:
       "Responsive multipage platform in which he describes which employee has been given which laptop. We should also be able to describe the details of the laptop as well. Built with ReactJS, Tailwind CSS, also was used React Redux and Form Validation.",
+    link: "https://pcfy-redberry.vercel.app/",
   },
   {
     id: 2,
     title: "Book Shop",
     img: "bookshop.jpg",
     description:
-      "Online shop to buy book with delivery to user's home. Was used DOM API, HTML, CSS, Javascript, Json. The project was created at an early stage of learning.",
+      "Online shop to buy book with delivery to user's home. Was used DOM API, HTML, CSS, Javascript, Json.",
+    descSpan: "The project was created at an early stage of learning.",
+    link: "https://mrmishka02.github.io/book-shop/pages/catalog.html",
   },
   {
     id: 3,
     title: "Online Zoo",
     img: "onlinezoo.jpg",
     description:
-      "Responsive multipage platform that contains information about animals from various zoos. Was used Figma design, PerfectPixel for Google Chrome, HTML, CSS and Javascript. The project was created at an early stage of learning.",
+      "Responsive multipage platform that contains information about animals from various zoos. Was used Figma design, PerfectPixel for Google Chrome, HTML, CSS and Javascript.",
+    descSpan: "The project was created at an early stage of learning.",
+    link: "https://mrmishka02.github.io/Online-Zoo/pages/petstory/#",
   },
 ];
 
@@ -31,7 +36,6 @@ const Single = ({ item }) => {
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    // offset: ["start start", "end start"],
   });
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
@@ -45,8 +49,14 @@ const Single = ({ item }) => {
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
-            <p>{item.description}</p>
-            <button>See Demo</button>
+            <p>
+              {item.description} <span style={{color: "#AB3267"}}>{item.descSpan}</span>
+            </p>
+            <button>
+              <a href={item.link} target="blank">
+                See Demo
+              </a>
+            </button>
           </motion.div>
         </div>
       </div>

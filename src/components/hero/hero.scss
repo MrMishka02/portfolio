@@ -49,11 +49,11 @@
 
 
   .imageContainer {
-    height: 100%;
     position: absolute;
-    top: 0;
+    top: 50px;
     right: 10%;
     border-radius: 100px;
     overflow: hidden;
+    border: 1px solid rebeccapurple;
   }
 }
