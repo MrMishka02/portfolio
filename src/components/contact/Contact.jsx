@@ -5,12 +5,14 @@ import emailjs from "@emailjs/browser";
 
 const variants = {
   initial: {
+    x: -100,
     opacity: 0,
   },
   animate: {
-    y: 0,
+    x: 0,
     opacity: 1,
     transition: {
+      delay: 0.5,
       duration: 0.5,
       staggerChildren: 0.1,
     },
@@ -72,7 +74,7 @@ const Contact = () => {
           ref={formRef}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
         >
           <input type="text" placeholder="Name" required name="name" />
           <input type="email" placeholder="Email" required name="email" />
