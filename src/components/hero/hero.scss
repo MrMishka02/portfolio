@@ -34,6 +34,7 @@
 
         @include mobile {
           font-size: 22px;
+          letter-spacing: 5px;
         }
       }
 
@@ -81,21 +82,23 @@
 
 
   .imageContainer {
+    width: 30%;
+    height: 50%;
     position: absolute;
-    top: 50px;
-    right: 10%;
-    border-radius: 20%;
+    top: 20%;
+    right: 15%;
+    border-radius: 20px;
     overflow: hidden;
     border: 1px solid rebeccapurple;
 
     @include mobile {
-      height: 50%;
-      width: 100%;
+      height: 30%;
+      width: 70%;
       border: none;
-      border-radius: 0;
-      top: unset;
+      top: 50%;
       bottom: 0;
       right: 0;
+      left: 15%;
     }
     img {
       width: 100%;

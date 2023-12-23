@@ -9,7 +9,7 @@ const items = [
     img: "portfolio.png",
     description:
       "Responsive multipage Personal Portfolio. Built with ReactJS + Vite and SASS. Also was used Framer-Motion fro animations and EmailJS service.",
-    link: "https://pcfy-redberry.vercel.app/",
+    link: "https://mg-portfolio-ten.vercel.app/",
   },
   {
     id: 2,
@@ -58,7 +58,8 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>
-              {item.description} <span style={{color: "#AB3267"}}>{item.descSpan}</span>
+              {item.description}{" "}
+              <span style={{ color: "#AB3267" }}>{item.descSpan}</span>
             </p>
             <button>
               <a href={item.link} target="blank">
