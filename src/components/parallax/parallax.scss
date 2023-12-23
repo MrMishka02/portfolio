@@ -19,7 +19,7 @@
     align-items: center;
 
     @include mobile {
-      width: 90%;
+      width: 100%;
     }
   }
 
@@ -29,7 +29,7 @@
     text-align: center;
 
     @include mobile {
-      margin-top: 100px;
+      margin-top: 130px;
       font-size: 30px;
       transform: none !important;
     }
@@ -40,6 +40,7 @@
     text-align: center;
 
     @include mobile {
+      margin-top: 20px;
       font-size: 20px;
       transform: none !important;
     }
