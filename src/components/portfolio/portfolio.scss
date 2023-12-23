@@ -14,7 +14,7 @@
     font-size: 36px;
 
     @include mobile {
-      padding-top: calc(100vh - 100px);
+      padding-top: 90px;
       font-size: 24px;
     }
 
@@ -43,6 +43,7 @@
 
       @include mobile {
         flex-direction: column;
+        gap: 10px;
       }
     }
 
@@ -54,7 +55,8 @@
 
       @include mobile {
         width: 100%;
-        max-height: 300;
+        max-height: 50%;
+        padding-top: 150px;
       }
 
       img {
