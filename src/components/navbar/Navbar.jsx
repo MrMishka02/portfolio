@@ -6,7 +6,7 @@ import { saveAs } from "file-saver";
 const Navbar = () => {
   const saveFile = () => {
     saveAs(
-      "https://onedrive.live.com/?authkey=%21ANLm8BSLgmPkYns&cid=D4509D34B38FB0EB&id=D4509D34B38FB0EB%213363&parId=root&o=OneUp",
+      "Mikheil Gogia - CV.pdf",
       "Mikheil Gogia - CV.pdf"
     );
   };
