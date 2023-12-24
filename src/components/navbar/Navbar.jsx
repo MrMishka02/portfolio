@@ -23,7 +23,7 @@ const Navbar = () => {
             <img src="/github.png" alt="" />
           </a>
           <a
-            href="https://www.linkedin.com/in/mikheil-gogia-848315247/"
+            href="https://www.linkedin.com/in/mikheil-gogia/"
             target="_blank"
           >
             <img src="/linkedin.png" alt="" />
