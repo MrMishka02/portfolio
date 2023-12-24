@@ -71,6 +71,8 @@
     button {
       padding: 20px;
       bottom: none;
+      border: none;
+      border-radius: 10px;
       background-color: orange;
       cursor: pointer;
       font-weight: 500;
@@ -78,6 +80,12 @@
       @include mobile {
         padding: 10px;
       }
+    }
+    button:hover {
+      background-color: #E8942F;
+    }
+    button:active {
+      background-color: green;
     }
   }
 }

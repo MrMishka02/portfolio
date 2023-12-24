@@ -26,7 +26,7 @@ const Links = ({ setOpen }) => {
     },
   };
 
-  const items = ["Homepage", "Portfolio", "Contact"];
+  const items = ["Homepage", "Portfolio", "About Me", "Contact"];
 
   return (
     <motion.div className="links" variants={variants}>

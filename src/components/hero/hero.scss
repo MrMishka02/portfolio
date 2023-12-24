@@ -63,6 +63,12 @@
             margin: 5px;
           }
         }
+        button:hover {
+          background-color: #E8942F;
+        }
+        button:active {
+          background-color: green;
+        }
 
         .contactMe {
           color: black;
