@@ -8,7 +8,7 @@ const items = [
     title: `Portfolio`,
     img: "portfolio.png",
     description:
-      "Responsive multipage Personal Portfolio. Built with ReactJS + Vite and SASS. Also was used Framer-Motion fro animations and EmailJS service.",
+      "Responsive multipage Personal Portfolio. Built with ReactJS + Vite and SASS. Also was used Framer-Motion for animations, Material UI and EmailJS service.",
     link: "https://mg-portfolio-ten.vercel.app/",
   },
   {
