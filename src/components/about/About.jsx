@@ -1,6 +1,7 @@
 import "./about.scss";
 import { saveAs } from "file-saver";
 import { motion } from "framer-motion";
+import BasicTabs from "./Tabs";
 
 const About = () => {
   const saveFile = () => {
@@ -77,6 +78,14 @@ const About = () => {
           <button onClick={saveFile}>
             <a href=""></a>Download CV
           </button>
+        </motion.div>
+        <motion.div
+          className="tabs"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
+        >
+          <BasicTabs />
         </motion.div>
       </div>
     </div>
