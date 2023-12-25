@@ -52,6 +52,7 @@
       height: 50%;
       border-radius: 10px;
       overflow: hidden;
+      box-shadow: 0px 0px 30px 5px rebeccapurple;
 
       @include mobile {
         width: 100%;

@@ -99,6 +99,7 @@
     border-radius: 20px;
     overflow: hidden;
     border: 1px solid rebeccapurple;
+    box-shadow: 0px 0px 30px rebeccapurple;
 
     @include mobile {
       height: 30%;
