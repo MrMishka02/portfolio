@@ -6,7 +6,7 @@ import BasicTabs from "./Tabs";
 const About = () => {
   const saveFile = () => {
     saveAs(
-      "https://onedrive.live.com/?authkey=%21AIehKNyH652FQB4&id=D4509D34B38FB0EB%213362&cid=D4509D34B38FB0EB&parId=root&parQt=sharedby&o=OneUp",
+      "Mikheil Gogia - CV.pdf",
       "Mikheil Gogia - CV.pdf"
     );
   };
